@@ -5,16 +5,4 @@
 //    Teamspeak 3:  ts3.71stsog.com                      //
 ///////////////////////////////////////////////////////////
 
-//------Call to R3F Logistics
-execVM "R3F_LOG\init.sqf";
-
-//------Required for Headless Client
-if (!hasInterface && !isDedicated) then {
-headlessClients = [];
-headlessClients set [(count headlessClients), player];
-publicVariable "headlessClients";
-isHC = true;
-};
-
-//------Call to Move Units to the Headless Clients
-execVM "passToHCs.sqf";call compileFinal preprocessFileLineNumbers "xon\main\init.sqf";
+call compileFinal preprocessFileLineNumbers "xon\main\init.sqf";
