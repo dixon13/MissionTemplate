@@ -13,7 +13,6 @@ class header {
 };
 
 class Params {
-
 	class EmtpyLine1 {
 	//paramsArray[0]
 		title = ":: Client Settings";
@@ -21,7 +20,6 @@ class Params {
 		texts[] = { "",""};
 		default = 0;
 	};
-
     class CrewHud {
 	//paramsArray[1]
 		title = "Vehicle Crew Hud";
