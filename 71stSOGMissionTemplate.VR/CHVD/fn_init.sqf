@@ -1,4 +1,4 @@
-if (hasInterface) then {
+if (hasInterface || (paramsArray select 2) == 1) then {
 [] spawn {
 	CHVD_scriptRunning = true;
 	//Wait for mission init, in case there are variables defined some place else

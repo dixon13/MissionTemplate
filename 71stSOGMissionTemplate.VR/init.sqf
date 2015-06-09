@@ -5,4 +5,4 @@
 //    Teamspeak 3:  ts3.71stsog.com                      //
 ///////////////////////////////////////////////////////////
 
-call compileFinal preprocessFileLineNumbers "xon\main\init.sqf";
+call compileFinal preprocessFileLineNumbers "71st\main\init.sqf";

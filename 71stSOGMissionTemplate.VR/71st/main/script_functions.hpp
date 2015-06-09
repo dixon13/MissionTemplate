@@ -174,16 +174,16 @@ FUNC(debugMarker) = {
 
 FUNC(killedText) = {
 	hint parseText format["<t align='center' color='#e5b348' size='1.2'><t shadow='1'shadowColor='#000000'>Friday Night Ops</t></t>
-	<img color='#ffffff' image='xon\Images\img_line_ca.paa' align='center' size='0.79' />
+	<img color='#ffffff' image='71st\Images\img_line_ca.paa' align='center' size='0.79' />
 	<t color='#80FF00'> An Ammo Cache</t><t color='#eaeaea'> has been destroyed</t>
-	<img color='#ffffff' image='xon\Images\img_line_ca.paa' align='center' size='0.79' />"]
+	<img color='#ffffff' image='71st\Images\img_line_ca.paa' align='center' size='0.79' />"]
 };
 
 FUNC(pickedUpIntel) = {
 	hint parseText format["<t align='center' color='#e5b348' size='1.2'><t shadow='1'shadowColor='#000000'>Friday Night Ops</t></t>
-	<img color='#ffffff' image='xon\Images\img_line_ca.paa' align='center' size='0.79' />
+	<img color='#ffffff' image='71st\Images\img_line_ca.paa' align='center' size='0.79' />
 	<t color='#eaeaea'>New intel received on the location of an ammo cache. A marker has been added to the map.</t>
-	<img color='#ffffff' image='xon\Images\img_line_ca.paa' align='center' size='0.79' />"]
+	<img color='#ffffff' image='71st\Images\img_line_ca.paa' align='center' size='0.79' />"]
 };
 
 FUNC(cacheKilled) = {
@@ -364,16 +364,4 @@ FUNC(spawnObjectiveDefenders) = {
 			_grp;
 		};
 	};
-};
-
-FUNC(cacheMission) = {
-	call compile preprocessFileLineNumbers "xon\missions\cacheMission.sqf";
-};
-
-FUNC(recCenter) = {
-	call compile preprocessFileLineNumbers "xon\missions\recruitmentCenter.sqf";
-};
-
-FUNC(secureCrash) = {
-	call compile preprocessFileLineNumbers "xon\missions\secureCrash.sqf";
 };
