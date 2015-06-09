@@ -41,23 +41,9 @@ There is a module for headless clients that works but is not perfect. If you are
 Added the Backpack On Chest mod for Arma 3 into the framework so there is no need to download the mod. All credit is due to DerZade, the original author of the mod.
 =======
 ##Features
-Ace3 modules and Settings
-
-Task Force module and Settings
-
-Named and grouped player units for everyone in the 71stSOG (need to be set to Playable)
-
-3 Headless Clients Gamelogics (need to be set to Playable)
-
-R3F
-
-SQF to pass AI to headless clients
+Ace3 modules and Settings, Task Force module and Settings, Named and grouped player units for everyone in the 71stSOG (need to be set to Playable), 3 Headless Clients Gamelogics (need to be set to Playable), R3F, SQF to pass AI to headless clients
 
 
-##Headless Clients
-Headless Client GameLogic need to set to Playable.
 
-##Payable Units
-All player units need to be set to Playable
 
 >>>>>>> 71stSOG/master
