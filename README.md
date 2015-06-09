@@ -8,10 +8,15 @@ This mission framework is built with CBA, ACE3, and Task Force Radio. To use thi
 
 ##Features
 Ace3 modules and Settings
+
 Task Force module and Settings
+
 Named and grouped player units for everyone in the 71stSOG (need to be set to Playable)
+
 3 Headless Clients Gamelogics (need to be set to Playable)
+
 R3F
+
 SQF to pass AI to headless clients
 
 
