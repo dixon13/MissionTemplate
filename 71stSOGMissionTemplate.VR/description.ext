@@ -35,7 +35,7 @@ class Params {
 		title = "Option to teleport to squad at flag pole at base";
 		values[] = {0,1};
 		texts[] = {"No","Yes"};
-		default = 1;
+		default = 0;
 	};
 	class headlessClients {
 	//paramsArray[4]
