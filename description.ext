@@ -1,0 +1,35 @@
+/////////////////////////////////////////////////////////////
+//  71st Special Operations Group Default description.ext  //
+//  Created by the 71st SOG Development Team               //
+//  Visit us on the web http://71stsog.com                 //  
+//  Teamspeak 3:  ts3.71stsog.com                          //
+/////////////////////////////////////////////////////////////
+
+
+//-------- Map Defaults
+OnLoadMission = "71st SOG Operations";
+onLoadName = "Mission Name";
+author = "The 71st SOG Development Team";
+loadScreen = "71STOGLOADING2.jpg";
+
+class Header {
+	gameType = COOP;
+	minPlayers = 1;
+	maxPlayers = 45;
+};
+
+//-------- RESPAWN
+Respawn		= 3;
+RespawnDelay	= 10;
+respawnDialog	= 0;
+
+//---------MISC
+disabledAI = true;
+enableDebugConsole = 1;
+
+
+//------ R3F Logistics Inclusion
+#include "R3F_LOG\desc_include.h"
+
+
+

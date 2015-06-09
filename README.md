@@ -1,10 +1,18 @@
+<<<<<<< HEAD
 # 71st-SOG-Friday-Template
 71st SOG Friday Op Template for Arma 3
 REQUIREMENTS: CBA & ACE3
+=======
+# MissionTemplate
+71st SOG Mission Template for Arma 3
+
+REQUIREMENTS: Mods: @CBA_3;@Ace3;@task_force_radio
+>>>>>>> 71stSOG/master
 
 ##Use
 To use insert all of these files into your mission and make modifications if you wish. Please do not re-release this framework. Once all of the files are in your mission you are finished and the mission can be played. If you do not know what you are doing when editing, DO NOT EDIT because there is a chance you could break the framework. Enjoy!
 
+<<<<<<< HEAD
 #####Teleport on Flag
 To use this feature place down a flag and name it "teleportFlag". Then the framework can use this object to add an action with the ACE menu to the flag pole so clients can use it to teleport to squad mates. If you do not intend on utilizing this module, then make sure you turn this feature off in the parameters in the Description.ext or in the lobby of the server.
 
@@ -31,3 +39,15 @@ There is a module for headless clients that works but is not perfect. If you are
 
 #####Backpack on Chest
 Added the Backpack On Chest mod for Arma 3 into the framework so there is no need to download the mod. All credit is due to DerZade, the original author of the mod.
+=======
+##Features
+This mission framework is built with ACE3 and CBA, so to use this framework the most recent versions of ACE3 and CBA are required to run when playing with this framework. Keep in mind this framework is all still WIP.
+
+
+##Headless Clients
+Headless Client GameLogic need to set to Playable.
+
+##Payable Units
+All player units need to be set to Playable
+
+>>>>>>> 71stSOG/master
