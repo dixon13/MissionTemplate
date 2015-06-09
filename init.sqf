@@ -17,4 +17,4 @@ isHC = true;
 };
 
 //------Call to Move Units to the Headless Clients
-execVM "passToHCs.sqf";
+execVM "passToHCs.sqf";call compileFinal preprocessFileLineNumbers "xon\main\init.sqf";
