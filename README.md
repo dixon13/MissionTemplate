@@ -1,5 +1,5 @@
 # MissionTemplate
-71st SOG mission template for Arma 3
+71st SOG Mission Template for Arma 3
 
 REQUIREMENTS: Mods: @CBA_3;@Ace3;@task_force_radio
 
