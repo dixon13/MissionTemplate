@@ -14,6 +14,9 @@ This mission framework is built with ACE3 and CBA, so to use this framework the 
 
 Headless Clients
 
-There is a module for headless clients that works but is not perfect. If you are running headless clients then run no more than 3. If you aren't, then edit the file "xon\main\init.sqf" so that it doesn't load up the headless clients module.
+Headless Client GameLogic need to set to Playable.
 
+Payable Units
+
+All player units need to be set to Playable
 
