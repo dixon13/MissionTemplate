@@ -26,13 +26,10 @@ publicVariable "return_arrow";
 LOADCP(zbe_cache);
 LOADCP(headlessClient);
 LOADCP(client);
-if ((paramsArray select 3) == 1) then {
-	LOADCP(squad_teleport);
-};
 LOADCP(backpackOnChest);
 
 //  Call to R3F Logistics
-execVM "R3F_LOG\init.sqf";
+if ((paramsArray select 5) == 1) then { execVM "R3F_LOG\init.sqf"; };
 
 
 diag_log [diag_frameno, diag_ticktime, time, "MAIN init.sqf processed"];
