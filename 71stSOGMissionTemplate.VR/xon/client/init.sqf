@@ -23,7 +23,7 @@ if (hasInterface || local player) then {
 		//[false] spawn {[_this select 0] CALLC(PREFIX\COMPONENT\ghostMode.sqf);};  <-- WIP
 	#endif
 	
-	if ((paramsArray select 1) == 1) then { LOADCP(crewhud); };
+	if ((paramsArray select 6) == 1) then { LOADCP(crewhud); };
 
 	diag_log [diag_frameno, diag_ticktime, time, "CLIENT init.sqf processed"];
 	

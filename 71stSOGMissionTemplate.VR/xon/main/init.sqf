@@ -1,7 +1,7 @@
 //////////////////////////////////////////////////////////////////
-//    71st Special Operations Group Default 71st\main\init.sqf   //
+//    71st Special Operations Group Default xon\main\init.sqf   //
 //    Created by the 71st SOG Development Team           		//
-//    Visit us on the web http://www.71stsog.com             		//      
+//    Visit us on the web http://71stsog.com             		//      
 //    Teamspeak 3:  ts3.71stsog.com                     		//
 //////////////////////////////////////////////////////////////////
 
@@ -26,10 +26,13 @@ publicVariable "return_arrow";
 LOADCP(zbe_cache);
 LOADCP(headlessClient);
 LOADCP(client);
+if ((paramsArray select 3) == 1) then {
+	LOADCP(squad_teleport);
+};
 LOADCP(backpackOnChest);
 
-//  Execute R3F Logistics in a thread of its own
-if ((paramsArray select 5) == 1) then { execVM "R3F_LOG\init.sqf"; };
+//  Call to R3F Logistics
+execVM "R3F_LOG\init.sqf";
 
 
 diag_log [diag_frameno, diag_ticktime, time, "MAIN init.sqf processed"];
